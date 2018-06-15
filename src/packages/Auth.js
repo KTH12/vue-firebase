@@ -2,9 +2,6 @@ export default function (Vue) {
   const VueVm = Vue;
   VueVm.auth = {
     setUser(user) {
-      console.log('-----setuser--------');
-      console.log(user);
-      console.log('------setuser end-------');
       localStorage.setItem('user', JSON.stringify(user));
     },
 
@@ -18,7 +15,6 @@ export default function (Vue) {
       localStorage.removeItem('user');
     },
   };
-
 
   Object.defineProperties(VueVm.prototype, {
     $auth: {

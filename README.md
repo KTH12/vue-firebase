@@ -1,6 +1,5 @@
-# vue-firebase
-
-> A Vue.js project
+Vue + Firebase Project
+============================
 
 ## Build Setup
 
@@ -16,9 +15,24 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
-```
+
+# webpack for sass
 npm install sass-loader node-sass style-loader --save-dev
 
+# state management lib
 npm install vuex
+```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+> Folder structure options and naming conventions for software projects
+
+### A typical top-level directory layout
+
+    .
+    ├── assets                    # static 파일 폴더입니다. 
+    ├── components                # 컴포넌트 관리 폴더입니다.
+    ├── packages                  # 여러가지 스크립트 커스텀 라이브러리 폴더입니다.
+    ├── router                    # 라우터 관리 폴더입니다.
+    ├── store                     # 상태 관리 폴더입니다.
+    ├── App.vue                   # 초기 컴포넌트 입니다.
+    └── main.js                   # 초기 세팅 js파일입니다.

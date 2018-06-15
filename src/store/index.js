@@ -13,8 +13,6 @@ export default new Vuex.Store({
   actions: {
     fetchUserProfile({ commit, state }) {
       fb.usersCollection.doc(state.currentUser.uid).get().then((res) => {
-        console.log('fetchUserProfile');
-        console.log(res);
         commit('setUserProfile', res.data());
       }).catch(() => {
       });
@@ -22,7 +20,6 @@ export default new Vuex.Store({
   },
   mutations: {
     setCurrentUser(state, payload) {
-      console.log('setCurrentUser');
       state.currentUser = payload;
     },
     setUserProfile(state, payload) {
@@ -40,7 +37,6 @@ export default new Vuex.Store({
     },
     removeComment(state, { payload, key }) {
       console.log(payload);
-      console.log(key);
       state.comments.splice(key, 1);
     },
   },
