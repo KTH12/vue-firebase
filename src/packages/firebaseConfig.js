@@ -3,12 +3,12 @@ import 'firebase/firestore';
 
 // firebase init goes here
 const config = {
-  apiKey: '',
-  authDomain: '',
-  databaseURL: '',
-  projectId: '',
-  storageBucket: '',
-  messagingSenderId: '',
+  apiKey: 'AIzaSyCBo4c2tjiNF7TiMH85Ka059jUmvmFNHZs',
+  authDomain: 'vue-project-2b2cb.firebaseapp.com',
+  databaseURL: 'https://vue-project-2b2cb.firebaseio.com',
+  projectId: 'vue-project-2b2cb',
+  storageBucket: 'vue-project-2b2cb.appspot.com',
+  messagingSenderId: '882181293251',
 };
 firebase.initializeApp(config);
 
@@ -29,7 +29,7 @@ const postsCollection = db.collection('posts');
 const commentsCollection = db.collection('comments');
 const likesCollection = db.collection('likes');
 
-export {
+export default{
   db,
   auth,
   currentUser,
