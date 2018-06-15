@@ -24,9 +24,9 @@ npm install vuex
 ```
 
 
-> Folder structure options and naming conventions for software projects
+> 프로젝트의 폴더 구조
 
-### A typical top-level directory layout
+### --------------------------------------------------
 
     .
     ├── assets                    # static 파일 폴더입니다. 
@@ -35,4 +35,8 @@ npm install vuex
     ├── router                    # 라우터 관리 폴더입니다.
     ├── store                     # 상태 관리 폴더입니다.
     ├── App.vue                   # 초기 컴포넌트 입니다.
+<<<<<<< HEAD
     └── main.js                   # 초기 세팅 js파일입니다.
+=======
+    └── main.js                   # 초기 세팅 js파일입니다.
+>>>>>>> a18d86b5ac593f8a41c8948bac3bb9a0b82f8ad7
