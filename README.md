@@ -41,4 +41,4 @@ npm install vuex
 # 스크린샷
 
 > 1.
-https://user-images.githubusercontent.com/12059592/41507337-df9645d6-726b-11e8-8bd9-defd90d4715b.png
+<img width="1409" alt="2018-06-17 8 18 13" src="https://user-images.githubusercontent.com/12059592/41507337-df9645d6-726b-11e8-8bd9-defd90d4715b.png">
