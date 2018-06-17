@@ -47,8 +47,4 @@ npm install vuex
 <img width="1669" alt="2018-06-17 8 24 12" src="https://user-images.githubusercontent.com/12059592/41507386-779d3de4-726c-11e8-967c-2af04d3e0413.png">
 
 > 3.
-<img width="1677" alt="2018-06-17 8 16 49" src="https://user-images.githubusercontent.com/12059592/41507370-44943984-726c-11e8-8709-1f5b114a6486.png">
-
-> 4.
-
-<img width="1677" alt="2018-06-17 8 16 49" src="https://user-images.githubusercontent.com/12059592/41507369-410b93d4-726c-11e8-8c0f-81596dd65d97.png">
+<img width="1402" alt="2018-06-17 8 16 59" src="https://user-images.githubusercontent.com/12059592/41507389-9ef75af0-726c-11e8-9a9a-f14a9255e898.png">
