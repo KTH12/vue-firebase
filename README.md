@@ -36,3 +36,9 @@ npm install vuex
     ├── store                     # 상태 관리 폴더입니다.
     ├── App.vue                   # 초기 컴포넌트 입니다.
     └── main.js                   # 초기 세팅 js파일입니다.
+
+
+# 스크린샷
+
+> 1.
+https://user-images.githubusercontent.com/12059592/41507337-df9645d6-726b-11e8-8bd9-defd90d4715b.png
